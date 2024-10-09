@@ -1,0 +1,123 @@
+@font-face {
+    font-family: 'Designosaur', sans-serif;
+    src: url('/assets/fonts/Designosaur-Regular.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Designosaur', sans-serif;
+    src: url('/assets/fonts/Designosaur-Italic.ttf') format('truetype');
+    font-weight: bold;
+    font-style: italic;
+}
+
+.hotline {
+    font-family: 'Designosaur', sans-serif;
+    font-size: 16px;
+    color: #cd2027;
+}
+
+.logo {
+    font-family: 'Designosaur', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    color: #cd2027;
+}
+
+.quote {
+    color: #8C8C8C;
+    text-align: center;
+    font-family: Arial;
+    font-size: 18px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+.text-grey {
+    color: #bebebe;
+}
+
+.text-orange {
+    color: #dd8c5c;
+}
+
+h1 {
+    font-family: 'Designosaur', sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+    color: #000000;
+}
+
+h2 {
+    font-family: 'Designosaur', sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    color: #000000;
+}
+
+p {
+    color: #8c8c8c;
+    font-family: Arial;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+button {
+    padding: 12px 32px;
+    font-family: Designosaur;
+    font-size: 18px;
+    border-radius: 100px;
+}
+
+.primary-button {
+    background-color: #ff7a00;
+    color: #512701;
+    transition: background-color 0.3s ease;
+}
+
+.primary-button:hover {
+    background-color: #dd6b00;
+    color: #512701;
+
+}
+
+.primary-button:active {
+    background-color: #c35f00;
+    color: #512701;
+}
+
+.secondary-button {
+    background-color: #e6e6e6;
+    color: #000000;
+    transition: background-color 0.3s ease;
+}
+
+.secondary-button:hover {
+    background-color: #d9d9d9;
+    color: #000000;
+}
+
+.secondary-button:active {
+    background-color: #cccccc;
+    color: #000000;
+}
+
+.footer {
+    background-color: #333;
+}
+
+.footer h2 {
+    color: #cecece;
+}
+
+.footer p {
+    color: #8c8c8c;
+}
+
+.contact {
+    background-color: #000000;
+}
